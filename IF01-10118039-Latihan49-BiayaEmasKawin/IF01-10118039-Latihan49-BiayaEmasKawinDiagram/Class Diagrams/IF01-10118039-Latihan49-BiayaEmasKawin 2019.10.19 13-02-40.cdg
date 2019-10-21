@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="IF01-10118039-Latihan49-BiayaEmasKawin">
+  <ClassDiagramComponents>
+    <Class name="Emas" package="" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="satuan" type="DecimalFormat" visibility="package"/>
+        <Field name="nama" type="String" visibility="private"/>
+        <Field name="beratEmas" type="double" visibility="private"/>
+        <Field name="hargaEmas" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getNama" returnType="String" visibility="public"/>
+        <Method name="setNama" returnType="void" visibility="public">
+          <Argument type="String" name="nama"/>
+        </Method>
+        <Method name="getBeratEmas" returnType="double" visibility="public"/>
+        <Method name="setBeratEmas" returnType="void" visibility="public">
+          <Argument type="double" name="beratEmas"/>
+        </Method>
+        <Method name="getHargaEmas" returnType="int" visibility="public"/>
+        <Method name="setHargaEmas" returnType="void" visibility="public">
+          <Argument type="int" name="hargaEmas"/>
+        </Method>
+        <Method name="totalHarga" returnType="double" visibility="public">
+          <Argument type="int" name="hargaEmas"/>
+        </Method>
+        <Method name="tampilPembedli" returnType="void" visibility="public">
+          <Argument type="double" name="total"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Main" package="" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
